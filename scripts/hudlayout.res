@@ -1,5 +1,37 @@
 "Resource/HudLayout.res"
 {
+	// DELETE THIS SECTION IF YOU DO NOT WANT TRANSPARENT VIEWMODELS
+	//"TransparentViewmodelMask"
+	//{
+	//	//alpha doesn't work for this, you need to change the texture's alpha
+	//	"ControlName"	"ImagePanel"
+	//	"fieldName"		"TransparentViewmodelMask"
+	//	"xpos"			"0"
+	//	"ypos"			"0"
+	//	"zpos"			"-100"
+	//	"wide"			"f0"
+	//	"tall"			"480"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"image"			"replay/thumbnails/REFRACTnormal_transparent"
+	//	"scaleImage"	"1"
+	//}
+	"Transparent"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"Transparent"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1" // TVM
+		"enabled"		"1" // TVM
+		"image"			"replay/thumbnails/transparent"
+		"scaleImage"	"1"
+	}
+	// END OF SECTION TO DELETE IF YOU DONT WANT IT
+	
 	/////////////////////////////////////////////////////////////////////////////
 	//  CUSTOMIZATION START   /////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////
